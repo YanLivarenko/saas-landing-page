@@ -139,6 +139,12 @@ body{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            :nth-child(1){
+                border-radius: 10px 0 0 10px;
+            }
+            :nth-child(2){
+                border-radius: 0 10px 10px 0;
+            }
             &_button{
                 font-size: 16px;
                 line-height: 19px;
@@ -151,8 +157,6 @@ body{
                 cursor: pointer;
                 user-select: none;
                 transition: all .5s ease-in-out;
-                &_left{border-radius: 10px 0 0 10px;}
-                &_right{border-radius: 0 10px 10px 0;}
                 &_active{
                     background: #5454D4;
                     color: #FFFFFF;
