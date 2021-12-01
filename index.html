@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Mulish:wght@200;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="/scripts/script.js" defer></script>
+    <title>SaaS</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <img src="img/logo.svg" alt="logo" class="header__logo">
+            <nav class="header__nav">
+                <a href="" class="header__nav_link">Home</a>
+                <a href="" class="header__nav_link">Features</a>
+                <a href="" class="header__nav_link">Pricing</a>
+                <a href="" class="header__nav_link">Blog</a>
+            </nav>
+            <button class="header__button button">Get Started</button>
+        </header>
+        <!-- Hero -->
+        <div class="hero">
+            <div class="hero__text">
+                <h1 class="hero__text_title">Grow your<br>
+                    subscription<br>
+                    business</h1>
+                <span class="hero__text_subtitle">Outcome-centered products that reduce churn,<br>optimize pricing, and grow your subscription<br>business end-to-end.</span>
+                <div class="hero__text_buttons">
+                    <button class="hero__text_buttons_button button">Get Started</button>
+                    <a href="#sub"><img src="/img/arrowdown.svg" class="hero__text_buttons_arrow"></img></a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="/img/heroimage.svg" alt="">
+            </div>
+        </div>
+        <div class="companies">
+            <img src="/img/companies/company1.svg" alt="" class="companies__company_1">
+            <img src="/img/companies/company2.svg" alt="" class="companies__company_2">
+            <img src="/img/companies/company3.svg" alt="" class="companies__company_3">
+            <img src="/img/companies/company4.svg" alt="" class="companies__company_4">
+            <img src="/img/companies/company5.svg" alt="" class="companies__company_5">
+        </div>
+        <!-- Subscription -->
+        <div class="subscription">
+            <a name="sub"></a>
+            <div class="subscription__head">
+                <span class="subscription__head_title">Get the right plan <br> for future product.</span>
+                <div class="subscription__head_buttons">
+                    <span class="subscription__head_buttons_button subscription__head_buttons_button_left subscription__head_buttons_button_active">Yearly</span>
+                    <span class="subscription__head_buttons_button subscription__head_buttons_button_right">Monthly</span>
+                </div>
+            </div>
+
+            <div class="subscription__cards">
+                <div class="subscription__cards_item">
+                    <span class="subscription__cards_item_title">Starter</span>
+                    <span class="subscription__cards_item_price">Free</span>
+                    <div class="subscription__cards_item_info">
+                        <span>1 Website</span>
+                        <span>5 GB Hosting</span>
+                        <span>Limited Support</span>
+                    </div>
+                    <button class="subscription__cards_item_button button">Get Started</button>
+                </div>
+
+                <div class="subscription__cards_item subscription__cards_item_active">
+                    <span class="subscription__cards_item_title subscription__cards_item_title_active">Premium</span>
+                    <span class="subscription__cards_item_price subscription__cards_item_price_active">$29<span>/month</span></span>
+                    <div class="subscription__cards_item_info subscription__cards_item_info_active">
+                        <span>10 Website</span>
+                        <span>15 GB Hosting</span>
+                        <span>Premium Support</span>
+                    </div>
+                    <button class="subscription__cards_item_button subscription__cards_item_button_active button">Get Started</button>
+                </div>
+
+                <div class="subscription__cards_item">
+                    <span class="subscription__cards_item_title">Enterprise</span>
+                    <span class="subscription__cards_item_price">$49<span>/month</span></span>
+                    <div class="subscription__cards_item_info">
+                        <span>Unlimited Website</span>
+                        <span>50 GB Hosting</span>
+                        <span>Premium Support</span>
+                    </div>
+                    <button class="subscription__cards_item_button button"><span>Get Started</span> </button>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
