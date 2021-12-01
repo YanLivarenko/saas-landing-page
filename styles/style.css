@@ -207,6 +207,14 @@ body {
           align-items: center;
 }
 
+.subscription__head_buttons :nth-child(1) {
+  border-radius: 10px 0 0 10px;
+}
+
+.subscription__head_buttons :nth-child(2) {
+  border-radius: 0 10px 10px 0;
+}
+
 .subscription__head_buttons_button {
   font-size: 16px;
   line-height: 19px;
@@ -229,14 +237,6 @@ body {
           user-select: none;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-}
-
-.subscription__head_buttons_button_left {
-  border-radius: 10px 0 0 10px;
-}
-
-.subscription__head_buttons_button_right {
-  border-radius: 0 10px 10px 0;
 }
 
 .subscription__head_buttons_button_active {
